@@ -40,13 +40,16 @@ ul {
 }
 
 .wrapper {
+	width: 600px;
+	margin-left: auto;
+	margin-right: auto;
 	text-align: center;
 	margin-top: 40px;
 }
 
 .boxl {
 	float:left;
-	width:44%;
+	width:31%;
 	font-family: "Ralewayl";
 	font-size: 25px;
 	color: #FFFFFF;
@@ -57,7 +60,7 @@ ul {
 
 .boxr {
 	float:right;
-	width:56%;
+	width:69%;
 	font-family: "Ralewayl";
 	font-size: 25px;
 	color: #FFFFFF;
