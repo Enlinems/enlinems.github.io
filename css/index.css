@@ -1,0 +1,75 @@
+@font-face{
+    font-family: "Raleway";
+    src: url('../fonts/Raleway-Thin.ttf'),
+    url('Raleway-Thin.eot');
+}
+
+@font-face{
+    font-family: "Ralewayl";
+    src: url('../fonts/Raleway-Light.ttf'),
+    url('Raleway-Thin.eot');
+}
+
+body {
+    background-image:    url(../img/background2.png);
+    background-size:     cover;
+    background-repeat:   no-repeat;
+    background-position: center center;
+	background-attachment:fixed;
+}
+
+ul {
+	list-style-type: none;
+	margin-top: 0px;
+}
+
+.main-title {
+	font-family: "Raleway";
+	font-size: 180px;
+	text-align: center;
+	color: #FFFFFF;
+	margin-top: 100px;
+}
+
+.sub-title {
+	font-family: "Ralewayl";
+	font-size: 50px;
+	text-align: center;
+	color: #FFFFFF;
+	margin-top: -40px;
+}
+
+.wrapper {
+	text-align: center;
+	margin-top: 40px;
+}
+
+.boxl {
+	float:left;
+	width:44%;
+	font-family: "Ralewayl";
+	font-size: 25px;
+	color: #FFFFFF;
+	height:50px;
+	line-height: 50px;
+	text-align: right;
+}
+
+.boxr {
+	float:right;
+	width:56%;
+	font-family: "Ralewayl";
+	font-size: 25px;
+	color: #FFFFFF;
+	height:50px;
+	line-height: 50px;
+	text-align: left;
+}
+
+.head {
+	font-family: "Ralewayl";
+	font-size: 25px;
+	text-align: center;
+	color: #FFFFFF;
+}
+
